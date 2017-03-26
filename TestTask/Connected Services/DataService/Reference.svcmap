@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7b57db5f-c399-49a4-94e3-265fff70e9ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52315/Data.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Data.wsdl" MetadataType="Wsdl" ID="e5e529c3-2ee6-484f-bbd9-e94ae161ae62" SourceId="1" SourceUrl="http://localhost:52315/Data.svc?wsdl" />
+    <MetadataFile FileName="Data.xsd" MetadataType="Schema" ID="3c5e2844-9861-451d-b931-ee4ccc65c268" SourceId="1" SourceUrl="http://localhost:52315/Data.svc?xsd=xsd0" />
+    <MetadataFile FileName="Data1.xsd" MetadataType="Schema" ID="fe96ed0e-7126-4073-9d81-140a38b23f13" SourceId="1" SourceUrl="http://localhost:52315/Data.svc?xsd=xsd1" />
+    <MetadataFile FileName="Data.disco" MetadataType="Disco" ID="ec06882a-c1dd-4c47-a6a6-65cdfb4db0d3" SourceId="1" SourceUrl="http://localhost:52315/Data.svc?disco" />
+    <MetadataFile FileName="Data2.xsd" MetadataType="Schema" ID="fb8c05c3-5542-401d-9d0d-e652dd05b7b7" SourceId="1" SourceUrl="http://localhost:52315/Data.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

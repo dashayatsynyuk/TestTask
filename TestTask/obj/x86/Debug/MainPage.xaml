@@ -1,0 +1,27 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="TestTask.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestTask"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                     >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="947*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='2' x:Name="btnStartSearch" Content="Start search" HorizontalAlignment="Left" Height="42" Margin="275,227,0,0" VerticalAlignment="Top" Width="173"                                                            />
+        <TextBox x:ConnectionId='3' x:Name="tbSearchField" HorizontalAlignment="Left" Height="11" Margin="96,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="352"/>
+        <ListView x:ConnectionId='4' x:Name="lvSetting" HorizontalAlignment="Left" Height="372" Margin="518,163,0,0" VerticalAlignment="Top" Width="765">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding OutputValue}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</Page>
+
